@@ -437,7 +437,7 @@ class callsState extends State<calls> {
                             topRight: Radius.circular(12),
                         )),
                     child: SizedBox(
-                      height: 539,
+                      height:480,
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: SingleChildScrollView(
@@ -1227,7 +1227,7 @@ class settingsState extends State<settings> {
     Icon(CupertinoIcons.device_laptop,color: Colors.white,size: 20,),
     Transform.rotate(angle: 7,child: Icon(Icons.key_outlined,color: Colors.white,size: 20,)),
     Icon(CupertinoIcons.lock_fill,color: Colors.white,size: 20,),
-    Image(image: AssetImage('assets/logo1.png'),height: 30,width: 30,),
+    Icon(CupertinoIcons.phone_circle_fill,color: Colors.white,size: 20,),
     Icon(CupertinoIcons.app_badge,color: Colors.white,size: 20,),
     Container(
         height: 30,
